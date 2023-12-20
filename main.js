@@ -113,32 +113,40 @@
 // let b = +prompt("Enter the number: ")
 // let c = +prompt("Enter the number: ")
 // let d = +prompt("Enter the number: ")
-// console.log(a + b + c + d)
+// console.log(a + b + c + d);
 
 // task-18
-// let fullName = prompt("Enter your full name")
-// let result = ("Salam " + fullName + "!")
+// let fullName = prompt("Enter your full name");
+// let result = ("Salam " + fullName + "!");
 // console.log(result);
 
 // task-19
-// let income = +prompt("In Come Money >> ")
+// let income = +prompt("In Come Money >> ");
 // let left = 530;
 // let right = 90;
-// let a = parseInt(income)
-// let b = l(income.tofixed(2))
-// console.log(b + " manat")
+// let a = parseInt(income);
+// let b = l(income.tofixed(2));
+// console.log(b + " manat");
 
 // task-20
-//
+// let value = prompt("daxili edin!", "530.90");
+// let arr = value.split(".");
+// console.log(`${arr[0]} manat ${arr[1]} qepik`);
 
 //task-21
-//
+// let value = 1350;
+// console.log(value - (value * 13 / 100));
 
 //task-22
-//
+// let fullName = "Ivan Pyotor Sergeevich";
+// let arr = fullname.split(" ");
+// let lastName = arr[0];
+// let firstNameFirstletter = arr[1][0];
+// let FatherNameFirstletter = arr[2][0];
+// console.log(`${lastName} ${firstNameFirstletter}. ${FatherNameFirstletter}`);
 
 //task-23
-//
+
 
 //task-24
 //
