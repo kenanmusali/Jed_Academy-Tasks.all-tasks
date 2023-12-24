@@ -152,50 +152,204 @@
 //
 
 //task-25
-// let value = prompt("number", "45 46 47");
+// let value = prompt("Enter three number", "45 46 47");
 // let numberList = value.split(" ")
 // let num1 = numberList[0];
 // let num2 = numberList[1];
 // let num3 = numberList[2];
-// if (num2 > num1 && num2 < num3) {
-//     console.log(` Ortancil eded ${num2}-dir, imput:${value} `)
-// }
-// else if (num2 < num1 && num2 > num3) {
-//     console.log(` Ortancil eded ${num2}-dir, imput:${value} `)
-// }
-// else if (num1 < num2 && num1 > num3) {
-//     console.log(` Ortancil eded ${num1}-dir, imput:${value} `)
-// }
-// else if (num1 > num2 && num1 > num3) {
-//     console.log(` Ortancil eded ${num1}-dir, imput:${value} `)
-// }
-// else if (num3 > num2 && num3 < num2) {
-//     console.log(` Ortancil eded ${num3}-dir, imput:${value} `)
-// }
-// else if (num3 > num2 && num3 < num2) {
-//     console.log(` Ortancil eded ${num3}-dir, imput:${value} `)
-// }
-// else if (num3 < num2 && num3 > num1) {
-//     console.log(` Ortancil eded ${num3}-dir, imput:${value} `)
+// if (numberList.length === 3) {
+//     if (num2 > num1 && num2 < num3 || num2 < num1 && num2 > num3) {
+//         console.log(` Ortancil eded ${num2}-dir, imput:${value} `);
+//     }
+//     else if (num1 < num2 && num1 > num3 || num1 > num2 && num1 < num3) {
+//         console.log(` Ortancil eded ${num1}-dir, imput:${value} `);
+//     }
+//     else if (num3 > num2 && num3 < num2 || num3 < num2 && num3 > num1) {
+//         console.log(` Ortancil eded ${num3}-dir, imput:${value} `);
+//     }
 // }
 // else {
-//     consolo.log(`Yalnish deyer`)
+//     consolo.log(`Yalnish deyer:`);
 // }
 
 //task-26
 //
 
 //task-27
-//
+// let id = prompt('Enter product id:');
+// switch (id) {
+//   case '1':
+//     alert('Available 10 pcs.');
+//     break;
+//   case '2':
+//     alert('Available 256 pcs.');
+//     break;
+//   case '3':
+//     alert('Available 53 pcs.');
+//     break;
+//   case '4':
+//     alert('There are 3 available.');
+//     break;
+//   default:
+//     alert('Out of stock');
+//     break;
+// }
 
 //task-28
-//
+// let genderId = prompt(`Enter your gender id`);
+// switch (genderId) {
+//     case 'M':
+//         alert('Male');
+//         break;
+//     case 'm':
+//         alert('Male');
+//         break;
+//     case 'Male':
+//         alert('Male');
+//         break;
+//     case 'male':
+//         alert('Male');
+//         break;
+//     case 'MALE':
+//         alert('Male');
+//         break;
+//         case 'F':
+//         alert('Female');
+//         break;
+//     case 'f':
+//         alert('Female');
+//         break;
+//     case 'Female':
+//         alert('Female');
+//         break;
+//     case 'female':
+//         alert('Female');
+//         break;
+//     case 'FEMALE':
+//         alert('Female');
+//         break;
+//     default:
+//         alert('Please type correct id');
+//         break;
+// }
+
+// let genderId = prompt('Enter your gender id');
+// if (genderId === 'M' || genderId === 'm' || genderId === 'Male' || genderId === 'male' || genderId === 'MALE') {
+//     alert('Male');
+// } else if (genderId === 'F' || genderId === 'f' || genderId === 'Female' || genderId === 'female' || genderId === 'FEMALE') {
+//     alert('Female');
+// } else {
+//     alert('Please type correct id');
+// }
 
 //task-29
-//
+// let month = prompt('Enter month number:');
+// switch (month) {
+//     case '1':
+//     case '01':
+//         alert('January.');
+//         break;
+//     case '2':
+//     case '02':
+//         alert('February.');
+//         break;
+//     case '3':
+//     case '03':
+//         alert('March.');
+//         break;
+//     case '4':
+//     case '04':
+//         alert('April.');
+//         break;
+//     case '5':
+//     case '05':
+//         alert('May.');
+//         break;
+//     case '6':
+//     case '06':
+//         alert('June.');
+//         break;
+//     case '7':
+//     case '07':
+//         alert('July.');
+//         break;
+//     case '8':
+//     case '08':
+//         alert('August.');
+//         break;
+//     case '9':
+//     case '09':
+//         alert('September.');
+//         break;
+//     case '10':
+//     case '010':
+//         alert('October.');
+//         break;
+//     case '11':
+//     case '011':
+//         alert('November.');
+//         break;
+//     case '12':
+//     case '012':
+//         alert('December.');
+//         break;
+//     default:
+//         alert('Enter correct Month number');
+//         break;
+// }
+
+// let month = prompt("Enter month number:");
+// if (month === "1" || month === "01") {
+//     alert("January.");
+// } else if (month === "2" || month === "02") {
+//     alert("February.");
+// } else if (month === "3" || month === "03") {
+//     alert("March.");
+// } else if (month === "4" || month === "04") {
+//     alert("April.");
+// } else if (month === "5" || month === "05") {
+//     alert("May.");
+// } else if (month === "6" || month === "06") {
+//     alert("June.");
+// } else if (month === "7" || month === "07") {
+//     alert("July.");
+// } else if (month === "8" || month === "08") {
+//     alert("August.");
+// } else if (month === "9" || month === "09") {
+//     alert("September.");
+// } else if (month === "10" || month === "010") {
+//     alert("October.");
+// } else if (month === "11" || month === "011") {
+//     alert("November.");
+// } else if (month === "12" || month === "012") {
+//     alert("December.");
+// } else {
+//     alert("Enter correct Month number");
+// }
 
 //task-30
-//
+// let userInput = prompt("Enter the date in the format 'YYYY.MM.DD':");
+
+// if (userInput.length === 10 && userInput[4] === '.' && userInput[7] === '.') {
+//     let [year, month, day] = userInput.split(".");
+//     month = parseInt(month, 10);
+
+//     const months = [
+//         "January", "February", "March", "April",
+//         "May", "June", "July", "August",
+//         "September", "October", "November", "December"
+//     ];
+
+//     if (month >= 1 && month <= 12) {
+//         const monthName = months[month - 1];
+//         alert(`${monthName} ${parseInt(day, 10)}, ${year}`);
+//     } else {
+//         alert("Invalid month entered.");
+//     }
+// } else {
+//     alert("Invalid value entered. Please use the format 'YYYY.MM.DD'.");
+// }
+
 
 
 
