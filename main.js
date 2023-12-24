@@ -1,19 +1,19 @@
 // task-01
 // console.log("my name is Tom");
- 
+
 // task-02//
 // let name = "Tommy";
 // console.log(name);
- 
+
 // task-03
 // 2user, person, console, $add
- 
+
 // task-04
 // let bookPrice = 750;
 // let bookAmount = 14;
 // let totalValue = bookPrice * bookAmount;
 // console.log("The total value of all books: " + totalValue + "AZN");
- 
+
 // task-05
 // let kmhSpeed = 75;
 // const conversionFactor = 1 / 3.6;
@@ -37,32 +37,32 @@
 // let lastName = "Turing";
 // let result = "Sizin adınız " + firstName + " " + lastName + " Tanışlığımıza çox şadam!";
 // console.log(result);
- 
+
 // task-09
 // let firstName = prompt ("Enter your Name: ");
 // let lastName = prompt ("Enter your Last Name: ");
 // let promptMessage = "Sizi bir daha görməyimizə şadıq, ";
 // let result = promptMessage + firstName + " " + lastName;
 // console.log(result);
- 
+
 // task-10
 // let fullName = "Murad Orucov"
 // let letterCount = fullName.replace(/ /g, '').length;
 // console.log("Number of letters in the name: " + letterCount);
- 
+
 // task-11
 // let fullName = prompt("Enter your full name: ");
 // let names = fullName.split();
 // let firstNameInitial = names[0].charAt(0);
 // let lastNameInitial = names[names.length - 1].charAt(0);
 // console.log("Letters: " + firstNameInitial + lastNameInitial);
- 
+
 // task-12
 // let firstName = prompt ("Enter your Name: ");
 // let lastName = prompt ("Enter your Last Name: ");
 // let result = lastName + " " + firstName;
 // console.log(result);
- 
+
 // task-13
 // let firstName = prompt ("Enter your Name: ");
 // let result = ("Salam, ") + firstName;
@@ -152,7 +152,35 @@
 //
 
 //task-25
-//
+// let value = prompt("number", "45 46 47");
+// let numberList = value.split(" ")
+// let num1 = numberList[0];
+// let num2 = numberList[1];
+// let num3 = numberList[2];
+// if (num2 > num1 && num2 < num3) {
+//     console.log(` Ortancil eded ${num2}-dir, imput:${value} `)
+// }
+// else if (num2 < num1 && num2 > num3) {
+//     console.log(` Ortancil eded ${num2}-dir, imput:${value} `)
+// }
+// else if (num1 < num2 && num1 > num3) {
+//     console.log(` Ortancil eded ${num1}-dir, imput:${value} `)
+// }
+// else if (num1 > num2 && num1 > num3) {
+//     console.log(` Ortancil eded ${num1}-dir, imput:${value} `)
+// }
+// else if (num3 > num2 && num3 < num2) {
+//     console.log(` Ortancil eded ${num3}-dir, imput:${value} `)
+// }
+// else if (num3 > num2 && num3 < num2) {
+//     console.log(` Ortancil eded ${num3}-dir, imput:${value} `)
+// }
+// else if (num3 < num2 && num3 > num1) {
+//     console.log(` Ortancil eded ${num3}-dir, imput:${value} `)
+// }
+// else {
+//     consolo.log(`Yalnish deyer`)
+// }
 
 //task-26
 //
