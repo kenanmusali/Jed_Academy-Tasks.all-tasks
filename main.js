@@ -21,7 +21,6 @@
 // task-05
 // let kmhSpeed = 75;
 // const conversionFactor = 1 / 3.6;
-@@ -37,32 +37,32 @@
 // let lastName = "Turing";
 // let result = "Sizin adınız " + firstName + " " + lastName + " Tanışlığımıza çox şadam!";
 // console.log(result);
