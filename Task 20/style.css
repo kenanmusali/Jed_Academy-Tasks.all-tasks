@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.row {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+
+h1 {
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+    color: blue;
+}
+
+.a {
+    color: black;
+}
+
+.col-2.text-center a {
+    padding: 0px 15px;
+}
+
+.col-2.text-center a:hover {
+    color: blue;
+    cursor: pointer;
+    font-weight: 600; 
+}
+
+.banner {
+    height: 450px;
+    width: 340px;
+    object-fit: cover;
+}
+
+button {
+    height: 55px;
+    width: 240px;
+    font-size: 16px;
+    background: linear-gradient(to left, #1059BD, #5589D2);
+    border: solid 1px #8C7DDD;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background: linear-gradient(to left, #5589D2, #1059BD);
+    border: solid 1px #8C7DDD;
+}
+
+.icons {
+    width: 25px;
+    margin-bottom: -7px;
+    
+}

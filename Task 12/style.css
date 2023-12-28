@@ -1,0 +1,50 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: beige;
+    border: 0px;
+}
+header {
+    padding: 30px;
+}
+header a {
+    color: rgb(2, 141, 141);
+    padding: 30px;
+    text-align: center;
+}
+header {
+    height: 30px;
+}
+img {
+    min-width: auto;
+    max-width: 100%;
+}
+text {
+    min-width: auto;
+    max-width: 100px;
+}
+p {
+    margin: 30px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    color: azure;
+    font-size: large;
+    background-color: rgb(2, 141, 141);
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+} 
+footer {
+    background-color: azure;
+    padding: 40px;
+    text-align: right;
+}
+footer a {
+    color: black;
+    padding: 30px;
+}
