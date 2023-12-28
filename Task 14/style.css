@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #71388d;
+    color: rgb(255, 255, 255);
+    margin: 0 400px;
+    box-sizing: border-box;
+}
+h1, h6 {
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 15px;
+}
+nav {
+    flex-direction: row !important;
+    
+}
+.circle {
+    display: flex;
+    border-radius: 100%;
+    background-color: #48215a;
+    height: 150px;
+    width: 150px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+
+}
+
+img {
+    height: 80px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.text {
+
+    border-radius: 3px;
+    height: 35px;
+    width: 150px;
+    background-color: #82519b;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 0 6px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.mark {
+    height: 10px;
+}
