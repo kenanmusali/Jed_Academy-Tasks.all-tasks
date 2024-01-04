@@ -49,13 +49,13 @@
 // Task-3
 //Sonu 0 ilə bitən bütün üçrəqəmli ədədləri konsola çıxaran proqram yazın.
 
-// function num() {
-// let minNum = 100;
-// let maxNum = 900;
-// let num = minNum;
-// while ()
+// let num = 100;
+// while (num < 991) {
+//     if (num % 10 === 0) {
+//         console.log(num)
+//     }
+//     num++;
 // }
-// num();
 
 // Task-4
 //Bütün ikirəqəmli tək ədədlərin cəmini konsola çıxaran proqram yazın.
