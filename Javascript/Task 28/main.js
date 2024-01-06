@@ -92,9 +92,23 @@
 // }
 
 // Task-6
-//Sadə ədədləri çıxaran proqram yazın. İstifadəçidən n ədədini soruşan və n-dən 0-a kimi bütün sadə ədədləri azalan ardıcıllıqla çıxaran proqram yazın. «23» ədədi daxil edildikdə, konsola «23», «19», «17», «13», «11», «7», «5», «3», «2», «1» ardıcıllığı çıxarılmalıdır.
+//Sadə ədədləri çıxaran proqram yazın. İstifadəçidən n ədədini soruşan və n-dən 0-a kimi bütün sadə ədədləri azalan ardıcıllıqla çıxaran proqram yazın. «23» ədədi daxil edildikdə, konsola «23», «19», «17», «13», «11», «7», «5», «3», «2» ardıcıllığı çıxarılmalıdır.
 
-
+// let num = 12;
+// while (num > 1) {
+//     let i = num;
+//     let count = 0;
+//     while (i > 0) {
+//         if (num % i === 0) {
+//             count +=1;
+//         }
+//         i--;
+//     }
+//     if (count === 2) {
+//         console.log(num, "sadedir");
+//     }
+//     num--;
+// }
 
 // Task-7
 //10-a qədər bütün reqemlerin hasilin tapan proqram tərtib edin Alınan dəyəri konsola çıxarın.
