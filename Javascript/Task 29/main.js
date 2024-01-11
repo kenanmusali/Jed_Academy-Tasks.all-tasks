@@ -37,3 +37,18 @@
 //     return (fees.toFixed(2));
 // }
 // console.log(calculateFees());
+
+//Task-11
+// let numCounter = 0;
+// let symbols = "0123456789(){}[]* &^%$#@!_+=-|\\|/,.;:><?~`"
+// let txt = prompt();
+// let result = ""
+// for (let item of txt) {
+//     if (!symbols.includes(item)) {
+//         result += item
+//     }
+// }
+// console.log(result);
+
+// let txt = prompt ()
+// console.log(txt.match(/[a-zA-z]/g).join(""));
