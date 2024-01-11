@@ -37,6 +37,3 @@
 //     return (fees.toFixed(2));
 // }
 // console.log(calculateFees());
-
-
-
