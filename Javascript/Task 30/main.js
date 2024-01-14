@@ -17,7 +17,6 @@
 //     console.log('Episode ' + (i + 4) + ': ' + arr[i]);
 // }
 
-
 // Task-03
 // let salary = [
 //    [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
@@ -46,5 +45,18 @@
 // Task-04
 // İstifadəçidən vergüllə ayrılmış beş ədədi daxil etməyi xahiş edin və onları massivdə saxlayın. İstifadəçidən beş ədəd elementi daxil etməyi tələb edən, onları massilə yazan və ən kiçik ədədi konsola çıxaran proqram yazın.(Split)
 
+// let userInput = "2, 5, 8, 6, 7, 9, 0, -1";
+// let numbers = userInput.split(",");
+// let numberArray = numbers.map(Number);
+// const smallestNumber = Math.min(numberArray);
+// console.log("Kicik eded:", smallestNumber);
+
+
 // Task-05
 //Verilən mətn tip dəyərdəki vergülləri nöqtəli vergüllə əvəz edin.(split,join)(replaceAll(",",";")) '32, 31, 34, 36, 31' mətni verilmişdir ,İçindəki vergülləri nöqtəli vergüllə əvəz edin.(Massivden sitifade ederek)
+
+// let text = '32, 31, 34, 36, 31';
+// let array = text.split(', ');
+// let result = array.join('; ');
+// console.log(result);
+
