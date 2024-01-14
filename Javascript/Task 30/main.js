@@ -12,6 +12,12 @@
 // Episode 5: Empire strikes back
 // Episode 6: Return of the Jdi
 
+// let arr = ['New Hope', 'The Empire Strikes Back', 'Return of the Jedi', 's', 'q', 's'];
+// for (let i = 0; i < arr.length; i++) {
+//     console.log('Episode ' + (i + 4) + ': ' + arr[i]);
+// }
+
+
 // Task-03
 // let salary = [
 //    [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
