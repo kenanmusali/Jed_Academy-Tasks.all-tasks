@@ -46,7 +46,7 @@
 //- bütün siyahı elementlərinə item sinifi əlavə edin;
 //- siyahıda primary sinfi olmayan elementlərə secondary sinfi əlavə edin.
 
-
+// Ede bilmedim.
 
 
 
