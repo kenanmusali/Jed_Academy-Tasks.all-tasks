@@ -18,17 +18,6 @@
 // }
 
 // Task-03
-// let salary = [
-//    [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
-//    [75, 75, 75, 75, 75, 75, 70, 77, 75, 75, 70, 75],
-//    [150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 180],
-//    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
-//    [80, 80, 80, 80, 80, 80, 80, 105, 105, 105, 105, 105],
-//    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
-//    [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 120],
-//    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
-//    [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
-//    [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75]
 
 // Şöbə işçilərinin əmək haqqını təhlil etmək üçün proqram tərtib edin.
 // Şöbədə müxtəlif maaşlarla 10 nəfər çalışır. Şöbə işçilərinin əmək haqlarını təhlil etmək üçün proqram tərtib edin.
@@ -42,13 +31,61 @@
 // işçilərinin maaşlarının cəmini qaytaran getQuarterSalary() funksiyasını yazın.
 //  Rüb - 3 aylıq bir müddətdir.
 
+let salary = [
+   [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
+   [75, 75, 75, 75, 75, 75, 70, 77, 75, 75, 70, 75],
+   [150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 180],
+   [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+   [80, 80, 80, 80, 80, 80, 80, 105, 105, 105, 105, 105],
+   [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+   [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 120],
+   [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+   [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
+   [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75]];
+
+// function getTotalSalary() {
+//     let totalSalary = 0;
+//     for (let i = 0; i < salary.length; i++) {
+//         let user = salary[i]
+//         for (let j = 0; j < user.length; j++) {
+//             totalSalary += user[j]
+//         }
+//     }
+//     console.log(totalSalary);
+// }
+// getTotalSalary()
+
+// function getMonthlySalary(num) {
+//     let monthlySalary = [];
+//     for (let i = 0; i < salary.length; i++) {
+//         let user = salary[i]
+//      monthlySalary.push(user[num -1]);
+//     }
+//     return monthlySalary;
+// }
+// console.log(getMonthlySalary(1))
+
+// function getQuarterTotalSalary(quarter) {
+//     let quarterTotal = 0;
+//     let quarterStart = (quarter - 1) * 3;
+//     let quarterEnd = quarterStart + 3;
+//     for (let i = 0; i < salary.length; i++) {
+//         for (let j = quarterStart; j < quarterEnd; j++) {
+//             quarterTotal += salary[i][j];
+//         }
+//     }
+//     return quarterTotal;
+// }
+// let result = getQuarterTotalSalary(4);
+// console.log(result);
+
 // Task-04
 // İstifadəçidən vergüllə ayrılmış beş ədədi daxil etməyi xahiş edin və onları massivdə saxlayın. İstifadəçidən beş ədəd elementi daxil etməyi tələb edən, onları massilə yazan və ən kiçik ədədi konsola çıxaran proqram yazın.(Split)
 
 // let userInput = "2, 5, 8, 6, 7, 9, 0, -1";
 // let numbers = userInput.split(",");
 // let numberArray = numbers.map(Number);
-// const smallestNumber = Math.min(numberArray);
+// const smallestNumber = Math.min(...numberArray);
 // console.log("Kicik eded:", smallestNumber);
 
 
