@@ -1,13 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f4f4f4;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+    
+            #calculator {
+                width: 300px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+    
+            #screen {
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 0 10px;
+                font-size: 20px;
+                border-bottom: 1px solid #ccc;
+            }
+    
+            #buttons {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+    
+            button {
+                height: 60px;
+                border: none;
+                outline: none;
+                font-size: 18px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+    
+            button.operator {
+                background-color: #ff9500;
+                color: #ffffff;
+            }
+    
+            button.double {
+                grid-column: span 2;
+            }
+    
+            button.equal {
+                background-color: #28a745;
+                color: #fff;
+            }
+    
+            button.clear {
+                background-color: #dc3545;
+                color: #fff;
+            }
+    
+            button:hover {
+                background-color: #e5e5e5;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="screen"></div>
+            <div id="buttons">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operator">÷</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operator">×</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operator">-</button>
+                <button class="double">0</button>
+                <button>.</button>
+                <button class="operator">+</button>
+                <button class="equal double">=</button>
+                <button class="clear operator double">C</button>
+            </div>
+        </div>
+    </body>
+    </html>
+    
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 
-<body>
     <script src="./main.js"></script>
 </body>
 
