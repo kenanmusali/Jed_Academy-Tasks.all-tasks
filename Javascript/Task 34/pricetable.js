@@ -34,12 +34,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const inputElem = document.getElementById("searchByNames");
     inputElem.addEventListener("keyup", () => {
+        let filteredTable = data.filter(item => {
+            let name = item.name.toLowerCase();
+            let inputVal = inputElem.value.toLowerCase();
+            return name.includes(inputVal);
+        });
 
-        let filteredTable =  data.filter(item => {
-            let name = item.name.toLowerCase()
-            let inputVal = inputElem.value.toLowerCase()
-            return name.includes(inputVal)
-        })
-            console.log(filteredTable);
+
+        tableBody.innerHTML = "";
+
+        filteredTable.forEach(crypto => {
+            const row = tableBody.insertRow();
+            const Name = row.insertCell(0);
+            const Ticker = row.insertCell(1);
+            const Value = row.insertCell(2);
+            const Change = row.insertCell(3);
+
+            Name.textContent = crypto.name;
+            Ticker.textContent = crypto.ticker;
+            Value.textContent = crypto.value;
+            Change.textContent = crypto.change;
+        });
     });
 });
