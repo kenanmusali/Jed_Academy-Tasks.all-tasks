@@ -17,6 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
         { "name": "TRON", "ticker": "TRX", "value": "0.020881", "change": "5.21%" }
     ];
 
+data.forEach(item => {
+    const changeUsingDot = item.change;
+    let changeDot = changeUsingDot.split('%');
+
+    let numericValue = Number(changeDot[0]);
+
+    if (numericValue < 0) {
+        item.change = `${numericValue}↓`;
+    } else if (numericValue > 0) {
+        item.change = `+${numericValue}↑`;
+    }
+});
+
     const tableBody = document.querySelector('#cryptoTable tbody');
 
     data.forEach(crypto => {
@@ -31,6 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
         Value.textContent = crypto.value;
         Change.textContent = crypto.change;
     });
+
+
 
     const inputElem = document.getElementById("searchByNames");
     inputElem.addEventListener("keyup", () => {
@@ -57,3 +72,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
