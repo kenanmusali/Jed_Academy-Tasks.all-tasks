@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Define userData function to create the data array
     function userData() {
         return [
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     const tableBody = document.querySelector('#cryptoTable tbody');
-    
+
     const data = userData();
 
     data.forEach(crypto => {
@@ -30,15 +30,48 @@ document.addEventListener("DOMContentLoaded", function() {
         const Ticker = row.insertCell(1);
         const Value = row.insertCell(2);
         const Change = row.insertCell(3);
-        
+
         Name.textContent = crypto.name;
         Ticker.textContent = crypto.ticker;
         Value.textContent = crypto.value;
         Change.textContent = crypto.change;
     });
 
-    
-    data.forEach(function(item) {
-        let numbers = item.change;
-        console.log(numbers)});
+
+
+
+
+    // function stock() {
+    //     data.forEach(function(item) {
+    //         let numbers = item.change;
+    //         console.log(numbers)});
+    // }
+
+    // for (let i = 0; i < data.length; i++) {
+    //     console.log(data[i].name);
+    // }
+
+    // for (let i = 0; i < data.length; i++) {
+    //     console.log(data[i].change);
+    // }
+
+    // let filteredPrice = data.filter((item) => {
+    //     if (item < 0) {
+    //         return item
+    //     }
+    // })
+
+
 })
+
+const inputElem = document.getElementById("searchByNames")
+inputElem.addEventListener("input", () => {
+    console.log(
+        data.filter(item => item.name.toLowerCase().includes(inputElem.value.toLowerCase()))
+    );
+})
+
+
+
+
+
